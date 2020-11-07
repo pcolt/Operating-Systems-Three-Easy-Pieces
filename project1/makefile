@@ -1,3 +1,6 @@
+wuzip: wuzip.c
+	gcc -o wuzip wuzip.c -Wall
+
 wzip: wzip.c
 	gcc -o wzip wzip.c -Wall
 
